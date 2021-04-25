@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    box-sizing: border-box;
+}
+
+
+hr{
+    border: 6px solid;
+    border-style: dotted;
+    border-bottom: none;
+    width:50px;
+    margin:5% 45%;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+body{
+    width: 100%;
+background-image: url("26293.jpg");
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    background-color: #333;
+    height: 45px;
+    color: white;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    padding-top: 5px;
+}
+
+.nav a{
+    text-decoration: none;
+    padding-right:10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav a:hover{
+    color:rgb(255, 136, 0);
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    float: left;
+    padding-left:10px;
+    margin-top: 10px;
+}
+
+#landing{
+    height: 100vh;
+}
+
+.content h1 ,h4{
+    align-items: center;
+    text-align: center;
+    font-weight: 450;
+    color: white;
+}
+
+.content h4{
+    padding-top: 25vh;
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+.content h1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn {
+ text-align: center;
+ padding-top: 10%;
+ font-size: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 1% 2%;
+    margin: 10px;
+    color: white;
+}
+
+.btn a:hover{
+    color:white;
+    background-color: rgb(255, 136, 0);
+}
+
+#service{
+    text-align: center;
+    height: auto;
+    margin: 0% 5%;
+    color: white;
+}
+
+#service h4{
+    margin: 40px;
+    font-size: 20px;
+}
+
+#service h2{
+    font-weight: 400;
+    margin: 9% 5%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.card1{
+    margin: 20px;
+ border: 1px solid;
+ border-radius: 20px;
+ padding: 16px;
+}
+
+.card2{
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.card3{
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 16px;
+    padding-bottom: 5%;
+}
+
+.card1:hover ,
+.card2:hover ,
+.card3:hover {
+    color: #333;
+    background-color:blanchedalmond;
+} 
+
+.icon{
+    font-size: 25px;
+}
+
+
+ #about {
+    height: 100vh;
+    color: white;
+}
+
+#about h4{
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#about p{
+    text-align: center;
+    margin: 20px;
+    font-weight: 350;
+    text-indent: 2px;
+}
+
+.form-head{
+    padding-top: 50px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 200; 
+} 
+
+.form{
+    text-align: center;
+}
+
+.form a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(70, 236, 70);
+}
+
+.form a:hover{
+    background-color: rgb(255, 136, 0);
+    color: blanchedalmond;
+}
+
+
+@media only screen and (min-width:600px) {
+     #service .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+
+    .head-text h1{
+        margin-left: 0;
+        padding-left: 0%;
+    }
+
+    .head-text h1 ,h4{
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    #service h4{
+        text-align: center;
+    }
+
+    #about h4{
+        text-align: center;
+    }
+
+    #about {
+        display: flex;
+    }
+
+    .about-text{
+        width: 50vw;
+        font-size: 1.5rem;
+        justify-self: flex-start;
+    }
+
+    #about p{
+        text-align: left;
+        margin: 25px;
+        font-weight: 350;
+        text-indent: 2px;
+        margin-left: 15%;
+    }
+    .about-form a ,input[type=text] {
+      width: 40vw;
+      align-items:left;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+.btn{
+    text-align:left;
+    padding-top: 10%;
+    font-size: 20px;
+    margin-left: 9%;
+   }
+
+   hr{
+    margin:5% 50%;
+   }
+   
+}
+
+
+
+
+
+
